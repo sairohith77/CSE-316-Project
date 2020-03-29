@@ -211,4 +211,5 @@ void* processCode(void *arg) {
         pthread_cond_broadcast(&condition);
         pthread_mutex_unlock(&lockResources);
 	pthread_exit(NULL);
+	
 }
